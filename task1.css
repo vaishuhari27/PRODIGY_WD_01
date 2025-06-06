@@ -15,6 +15,7 @@ body{
 #navbar li{
     display:inline;
     padding: 10px 20px;
+    border-radius:0;
 }
 #navbar a{
     text-decoration:none;
@@ -23,4 +24,15 @@ body{
 } 
 #navbar li:hover{
     background:darkblue;
+    border-radius:15px;
+}
+div{
+    margin-top: 80px;
+    padding: 20px;
+}
+p{
+    height: 2000px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sansserif;
+    text-align:center;
 }
